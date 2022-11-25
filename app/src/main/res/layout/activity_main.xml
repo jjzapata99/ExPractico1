@@ -7,12 +7,35 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
+        android:layout_width="301dp"
+        android:layout_height="100dp"
+        android:text="El juego de trivia es el siguiente:\n  - Se debe pulsar unicamente un botón.\n - Los puntos se consiguen acertando la trivia.\n -Ganas con 3 aciertos."
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="421dp"
+        android:layout_height="280dp"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="102dp"
+        tools:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="EMPEZAR"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="359dp"
+        android:layout_height="46dp"
+        android:text="Desarrollado por\n Jefferson Cabeelo, Bruno Puero, Jose Zapata"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="669dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
