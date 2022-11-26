@@ -63,7 +63,7 @@
         android:layout_width="289dp"
         android:layout_height="38dp"
         android:autoSizeTextType="uniform"
-        android:text="Haz contestado 3 preguntas"
+        android:text="No alcanzaste los puntos necesarios"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.557"
