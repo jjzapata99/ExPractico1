@@ -16,7 +16,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/mensajePerdida"
         android:layout_width="288dp"
         android:layout_height="84dp"
         android:autoSizeTextType="uniform"
@@ -27,7 +27,7 @@
         tools:layout_editor_absoluteY="276dp" />
 
     <Button
-        android:id="@+id/btn_trivia1"
+        android:id="@+id/btn_volver_a_jugar"
         android:layout_width="300dp"
         android:layout_height="55dp"
         android:layout_marginTop="468dp"
@@ -41,7 +41,7 @@
         app:layout_constraintVertical_bias="0.985" />
 
     <Button
-        android:id="@+id/btn_trivia1"
+        android:id="@+id/btn_salir"
         android:layout_width="300dp"
         android:layout_height="55dp"
         android:layout_marginTop="548dp"
@@ -55,7 +55,7 @@
         app:layout_constraintVertical_bias="0.985" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/numero_preguntas"
         android:layout_width="289dp"
         android:layout_height="38dp"
         android:autoSizeTextType="uniform"
