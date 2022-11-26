@@ -76,11 +76,13 @@ public class game_p extends AppCompatActivity {
     }
     public int[] generateRandom(int n){
         int arreglo[]= new int[n];
-        for(int i=0; i<n; i++) {
-            int num_rand = (int) (rand.nextInt(n) );
-            for (int x = 0; x <= i; x++) {
-                if (arreglo[x] != num_rand) {
-                    arreglo[i] = num_rand;
+        int i =0;
+        arreglo[i]= (int) (Math.random()*n);
+        for(i=1; i<n; i++) {
+            arreglo[i]= (int) (Math.random()*n);
+            for (int x = 0; x < i; x++) {
+                if (arreglo[i] == arreglo[x]) {
+                    i--;
                 }
             }
         }
@@ -98,7 +100,7 @@ public class game_p extends AppCompatActivity {
                 btn4.setText(respuesta[value_rand[verif]][value_rand_button[3]]);
             }
             else {
-                Intent intent= new Intent(game_p.this, activity_lose.class);
+                Intent intent= new Intent(game_p.this, game_p.class);
                 startActivity(intent);
             }
         } else {
