@@ -9,13 +9,16 @@ import android.widget.Button;
 
 public class activity_lose extends AppCompatActivity {
 
-    Button btnJugar = findViewById(R.id.btn_volver_a_jugar);
-    Button btnSalir = findViewById(R.id.btn_salir);
+    Button btnJugar;
+    Button btnSalir;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lose);
+
+        btnJugar = (Button) findViewById(R.id.btn_volver_a_jugar);
+        btnSalir = (Button) findViewById(R.id.btn_salir);
 
         btnJugar.setOnClickListener(new View.OnClickListener() {
             @Override

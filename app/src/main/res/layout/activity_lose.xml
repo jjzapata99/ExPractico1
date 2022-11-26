@@ -11,48 +11,52 @@
         android:layout_width="203dp"
         android:layout_height="186dp"
         android:src="@drawable/lose"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="67dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="Carita Triste"
+        app:layout_constraintVertical_bias="0.154" />
 
     <TextView
         android:id="@+id/mensajePerdida"
         android:layout_width="288dp"
         android:layout_height="84dp"
         android:autoSizeTextType="uniform"
-        android:text="Lo siento \nHaz perdido"
         android:gravity="center"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="276dp" />
+        android:text="Lo siento \nHaz perdido"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.486" />
 
     <Button
         android:id="@+id/btn_volver_a_jugar"
         android:layout_width="300dp"
         android:layout_height="55dp"
-        android:layout_marginTop="468dp"
         android:text="Volver a Jugar"
         app:backgroundTint="#4CAF50"
-        app:layout_constraintBottom_toTopOf="@+id/btn_trivia2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.985" />
+        app:layout_constraintVertical_bias="0.789" />
 
     <Button
         android:id="@+id/btn_salir"
         android:layout_width="300dp"
         android:layout_height="55dp"
-        android:layout_marginTop="548dp"
         android:text="Salir"
         app:backgroundTint="#960000"
-        app:layout_constraintBottom_toTopOf="@+id/btn_trivia2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.985" />
+        app:layout_constraintVertical_bias="0.892" />
 
     <TextView
         android:id="@+id/numero_preguntas"
@@ -60,8 +64,11 @@
         android:layout_height="38dp"
         android:autoSizeTextType="uniform"
         android:text="Haz contestado 3 preguntas"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="400dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.613" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
