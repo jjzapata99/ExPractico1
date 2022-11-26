@@ -13,6 +13,13 @@
         android:theme="@style/Theme.TriviCini"
         tools:targetApi="31">
         <activity
+            android:name=".activity_lose"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".game_p"
             android:exported="false">
             <meta-data
