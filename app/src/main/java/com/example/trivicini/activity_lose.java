@@ -9,8 +9,8 @@ import android.widget.Button;
 
 public class activity_lose extends AppCompatActivity {
 
-    private Button btnJugar;
-    private Button btnSalir;
+    Button btnJugar;
+    Button btnSalir;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
